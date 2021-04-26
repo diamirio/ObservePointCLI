@@ -7,6 +7,7 @@ private var service: UpdateAppService!
 
 public struct UpdateAppCommand: ParsableCommand {
     public static var configuration = CommandConfiguration(
+        commandName: "update-app",
         abstract: """
             A(n) (unofficial) utility for interacting with the ObservePoint API.
             * Fetches information about the app

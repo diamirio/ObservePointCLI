@@ -18,7 +18,7 @@ OVERVIEW: A(n) (unofficial) utility for interacting with the ObservePoint API.
 * Uploads the passed `<file>`
 * Triggers all journeys that are linked to the app.
 
-USAGE: update-app-command --api-key <api-key> --file <file> --app-id <app-id> [--verbose]
+USAGE: update-app --api-key <api-key> --file <file> --app-id <app-id> [--verbose]
 
 OPTIONS:
   --api-key <api-key>     The api key for the ObservePoint API 
